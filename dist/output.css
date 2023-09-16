@@ -554,6 +554,10 @@ video {
   display: inline-block;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }

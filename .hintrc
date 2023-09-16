@@ -15,7 +15,8 @@
       {
         "ignore": [
           "scale",
-          "backdrop-filter"
+          "backdrop-filter",
+          "overscroll-behavior-x"
         ]
       }
     ],
