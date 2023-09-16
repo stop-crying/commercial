@@ -30,6 +30,12 @@
         "select-name": "off",
         "label": "off"
       }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
     ]
   }
 }
