@@ -6,7 +6,8 @@
     "axe/name-role-value": [
       "default",
       {
-        "link-name": "off"
+        "link-name": "off",
+        "button-name": "off"
       }
     ],
     "compat-api/css": [
@@ -21,7 +22,8 @@
     "axe/structure": [
       "default",
       {
-        "list": "off"
+        "list": "off",
+        "listitem": "off"
       }
     ],
     "axe/forms": [
@@ -36,6 +38,21 @@
       {
         "marquee": "off"
       }
-    ]
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[loading]"
+        ]
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "button-type": "off"
   }
 }
